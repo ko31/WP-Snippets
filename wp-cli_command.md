@@ -1,5 +1,7 @@
 # WP-CLIコマンド
 
+https://wp-cli.org/
+
 ## インストール
 
 WordPress のダウンロード
@@ -22,4 +24,22 @@ wp core install --url=http://example.com/ --title=titlename --admin_user=usernam
 
 ## 各種設定
 
+### プラグイン
 
+プラグインを検索
+
+```
+wp plugin search rest-api
+```
+
+プラグインをインストールして有効化
+
+```
+wp plugin install rest-api activate
+```
+
+プラグインをアンインストール
+
+```
+wp plugin uninstall rest-api
+```
